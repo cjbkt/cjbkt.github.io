@@ -1,0 +1,29 @@
+{
+    "/": {
+        "title": "Home"
+    },
+    "/ueber": {
+        "title": "Über uns",
+        "hidden": true,
+        "submenu": {
+            "/ueber/jk": {"title": "Jugendkreis"},
+            "/ueber/tk": {"title": "Teeniekreis"},
+            "/ueber/js": {"title": "Jungschar"}
+        }
+    },
+    "/programm": {
+        "title": "Programm",
+        "hidden": true,
+        "submenu": {
+            "/programm/jk": {"title": "Jugendkreis"},
+            "/programm/tk": {"title": "Teeniekreis"},
+            "/programm/js": {"title": "Jungschar"}
+        }
+    },
+    "/events": {
+        "title": "Events"
+    },
+    "/kontakt": {
+        "title": "Kontakt"
+    }
+}

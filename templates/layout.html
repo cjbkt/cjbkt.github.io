@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>cjb Kitzingen – {% block title %}Willkommen{% endblock %}</title>
+    <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+</head>
+<body>
+    <header>
+        <h1>cjb Kitzingen</h1>
+        <img src="{{ '/static/logo.png'|url }}" alt="" class="logo" />
+        <nav>
+            {% for href, menu in bag('main-nav').iteritems() recursive %}
+                {% if loop.first %}<ul>{% endif %}
+                <li{% if this.is_child_of(href) %} class="active"{% endif %}>
+                    <a href="{% if menu.hidden %}#{% else %}{{ href|url }}{% endif %}">{{ menu.title }}</a>
+                {%- if menu.submenu -%}
+                    {{ loop(menu.submenu.iteritems()) }}
+                {% endif %}</li>
+                {% if loop.last %}</ul>{% endif %}
+            {% endfor %}
+        </nav>
+    </header>
+    <main>
+        {% block body %}{% endblock %}
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

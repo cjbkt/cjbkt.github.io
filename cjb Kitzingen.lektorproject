@@ -1,0 +1,9 @@
+[project]
+name = cjb Kitzingen
+locale = de_DE
+
+[servers.surge]
+target = surge:cjb-kitzingen.surge.sh
+
+[packages]
+lektor-surge = 0.2
