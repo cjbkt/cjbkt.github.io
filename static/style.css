@@ -1,0 +1,116 @@
+:root {
+    --header-bg-color: #daeef3;
+    --main-bg-color: #f1fbfe;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 15px;
+
+    /* background-color: #daeef3;
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px; */
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+.active>a {
+    font-style: italic;
+    
+}
+main img {
+    transition: .3s;
+}
+main img:hover {
+    filter: brightness(1.5) hue-rotate(90deg);
+}
+
+header {
+    position: relative;
+    border: .2em solid black;
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+}
+footer {
+    border-radius: 0 0 20px 20px;
+}
+
+header, footer {
+    margin: 0 auto;
+    background: #daeef3;
+    background: var(--header-bg-color);
+}
+footer, main {
+    padding: 20px 30px;
+}
+main {
+    margin: 0 auto;
+    background: #f1fbfe;
+    background: var(--main-bg-color);
+    border: .2em solid black;
+    border-top: none;
+    border-bottom: none;
+}
+footer {
+    border: .2em solid black;
+    border-top: none;
+}
+
+header> h1 {
+    color: #169bbd;
+    margin: 20px 30px;
+    font-weight: normal;
+    font-size: 42px;
+    float: left;
+}
+header> .logo {
+    float: right;
+    padding: .3em;
+}
+
+/* main menu */
+nav ul {
+    list-style: none;
+}
+header> nav {
+    position: sticky; top: 0;
+}
+header> nav> ul {
+    clear: both;
+    width: 100%;
+    line-height: 1.5em;
+    height: 2em;
+    font-weight: bold;
+    margin: 20px 30px 0 20px;
+    padding-bottom: .5em;
+}
+
+header> nav> ul> li {
+    position: relative;
+    float: left;
+    margin: 0 1em 0 0;
+    padding: 0;
+}
+/* Submenu */
+header> nav> ul> li> ul {
+    display: none;
+    position: absolute;
+    padding: 1em;
+    min-width; 100%;
+    border-radius: 10px;
+    
+    background-color: #daeef3;
+    font-weight: normal;
+}
+header> nav> ul> li> ul a {
+    text-decoration: none;
+}
+/* opened Submenu */
+header> nav> ul> li:hover> ul {
+    display: block;
+    
+}
