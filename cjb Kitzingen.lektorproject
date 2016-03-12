@@ -2,6 +2,8 @@
 name = cjb Kitzingen
 locale = de_DE
 
+[servers.ghpages]
+target = ghpages+https://cjbkt/cjbkt.github.io
 [servers.surge]
 target = surge:cjb-kitzingen.surge.sh
 
