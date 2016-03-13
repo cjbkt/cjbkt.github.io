@@ -23,10 +23,7 @@ a:hover {
     
 }
 main img {
-    transition: .3s;
-}
-main img:hover {
-    filter: brightness(1.5) hue-rotate(90deg);
+    max-width: 100%;
 }
 
 header {
@@ -90,7 +87,6 @@ header> nav> ul {
 }
 
 header> nav> ul> li {
-    position: relative;
     float: left;
     margin: 0 1em 0 0;
     padding: 0;
@@ -104,13 +100,40 @@ header> nav> ul> li> ul {
     border-radius: 10px;
     
     background-color: #daeef3;
+    background: var(--header-bg-color);
     font-weight: normal;
 }
 header> nav> ul> li> ul a {
     text-decoration: none;
 }
 /* opened Submenu */
-header> nav> ul> li:hover> ul {
+header> nav> ul> li:hover> ul,
+header> nav> ul   a:focus~ ul {
     display: block;
-    
+}
+
+
+@media (max-width: 35em) {
+header {
+    position: static;
+}
+header> nav> ul {
+    padding-left: 0;
+    height: auto;
+}
+
+header> nav> ul> li {
+    float: none;
+    clear: both;
+}
+/* Submenu */
+header> nav> ul> li> ul {
+    position: static;
+    background: transparent;
+}
+
+header> nav> ul> li> ul> li {
+    float: left;
+    margin: 0 1em 0 0;
+}
 }
