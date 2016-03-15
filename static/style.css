@@ -35,7 +35,6 @@ header {
 footer {
     border-radius: 0 0 20px 20px;
 }
-
 header, footer {
     margin: 0 auto;
     background: #daeef3;
@@ -45,6 +44,7 @@ footer, main {
     padding: 20px 30px;
 }
 main {
+    display: block;
     margin: 0 auto;
     background: #f1fbfe;
     background: var(--main-bg-color);
