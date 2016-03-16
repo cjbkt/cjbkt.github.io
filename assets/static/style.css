@@ -28,6 +28,7 @@ main img {
 }
 
 header {
+    position: -webkit-sticky;
     position: sticky;
     top: -82px; /* 82 = 20 + 42 + 20 = header> h1 { margin-top + font-height + margin-bottom } */
     border: .2em solid black;
