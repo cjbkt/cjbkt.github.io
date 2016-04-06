@@ -71,6 +71,9 @@ header> .logo {
     float: right;
     padding: .3em;
 }
+main> p {
+    max-width: 45em;
+}
 
 /* main menu */
 nav ul {
