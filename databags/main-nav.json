@@ -2,13 +2,13 @@
     "/": {
         "title": "Home"
     },
-    "/ueber": {
-        "title": "Über uns",
+    "/gruppen": {
+        "title": "Unsere Gruppen",
         "hidden": true,
         "submenu": {
-            "/ueber/jk": {"title": "Jugendkreis"},
-            "/ueber/tk": {"title": "Teeniekreis"},
-            "/ueber/js": {"title": "Jungschar"}
+            "/gruppen/jk": {"title": "Jugendkreis"},
+            "/gruppen/tk": {"title": "Teeniekreis"},
+            "/gruppen/js": {"title": "Jungschar"}
         }
     },
     "/programm": {
