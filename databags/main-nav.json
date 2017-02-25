@@ -6,18 +6,22 @@
         "title": "Unsere Gruppen",
         "hidden": true,
         "submenu": {
-            "/gruppen/jk": {"title": "Jugendkreis"},
-            "/gruppen/tk": {"title": "Teeniekreis"},
-            "/gruppen/js": {"title": "Jungschar"}
+            "/gruppen/jugendkreis": {"title": "Jugendkreis"},
+            "/gruppen/teenykreis": {"title": "Teenykreis"},
+            "/gruppen/bibelkids": {"title": "Bibelkids"},
+            "/gruppen/maxiclub": {"title": "Maxiclub"},
+            "/gruppen/miniclub": {"title": "Miniclub"}
         }
     },
     "/programm": {
         "title": "Programm",
         "hidden": true,
         "submenu": {
-            "/programm/jk": {"title": "Jugendkreis"},
-            "/programm/tk": {"title": "Teeniekreis"},
-            "/programm/js": {"title": "Jungschar"}
+            "/programm/jugendkreis": {"title": "Jugendkreis"},
+            "/programm/teenykreis": {"title": "Teenykreis"},
+            "/programm/bibelkids": {"title": "Bibelkids"},
+            "/programm/maxiclub": {"title": "Maxiclub"},
+            "/programm/miniclub": {"title": "Miniclub"}
         }
     },
     "/events": {
