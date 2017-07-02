@@ -21,7 +21,6 @@ a:hover {
 }
 .active>a {
     font-style: italic;
-    
 }
 main img {
     max-width: 100%;
@@ -74,6 +73,12 @@ header> .logo {
 main> p {
     max-width: 45em;
 }
+main th {
+    text-align: left;
+}
+main td {
+    padding-right: 1em;
+}
 
 /* main menu */
 nav ul {
@@ -101,7 +106,7 @@ header> nav> ul> li> ul {
     padding: 1em;
     min-width; 100%;
     border-radius: 10px;
-    
+
     background-color: #daeef3;
     background: var(--header-bg-color);
     font-weight: normal;
