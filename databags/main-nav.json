@@ -7,7 +7,7 @@
         "hidden": true,
         "submenu": {
             "/gruppen/jugendkreis": {"title": "Jugendkreis"},
-            "/gruppen/teenykreis": {"title": "Teenykreis"},
+            "/gruppen/teenkreis": {"title": "Teenkreis"},
             "/gruppen/bibelkids": {"title": "Bibelkids"},
             "/gruppen/maxiclub": {"title": "Maxiclub"},
             "/gruppen/miniclub": {"title": "Miniclub"}
@@ -18,7 +18,7 @@
         "hidden": true,
         "submenu": {
             "/programm/jugendkreis": {"title": "Jugendkreis"},
-            "/programm/teenykreis": {"title": "Teenykreis"},
+            "/programm/teenkreis": {"title": "Teenkreis"},
             "/programm/bibelkids": {"title": "Bibelkids"},
             "/programm/maxiclub": {"title": "Maxiclub"},
             "/programm/miniclub": {"title": "Miniclub"}
